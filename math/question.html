@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+
+    <body>
+        <div align="center">
+            <img class="margintop1 width90p" src="img/title.png" alt="Let us do math">
+        </div>
+        <div align="center">
+            <div class="colorstrip margintop1 "></div>
+        </div>
+        <div align="center" class="margintop2">
+            <input type="number" id="num0"></input>
+            <input type="text" id="sign0"></input>
+            <input type="number" id="num1"></input>
+            <input type="text" id="sign1"></input>
+            <input type="number" id="num2"></input>
+        </div>
+        <div align="center" class="margintop2">
+            <button onclick="check()" id="check"><buttontext>Check</buttontext></button>
+        </div>
+        <div align="center" id="list" class="margintop2 width90p">
+        </div>
+    </body>
+
+</html>
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+<script src="question.js"></script>
+<link rel="stylesheet" href="main.css">
+
+<style>
+    tr{
+        font-size: 6vw;
+        text-shadow: -0.03ch 0 yellow, 0 0.03ch yellow, 0.03ch 0 yellow, 0 -0.03ch yellow;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .right{
+        color: green;
+    }
+    .wrong{
+        color:red;
+    }
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    input {
+        margin:0;
+        font-size: 10vw;
+        text-shadow: -0.03ch 0 red, 0 0.03ch red, 0.03ch 0 red, 0 -0.03ch red;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #FFA600;
+        /* border:none; */
+        display: inline-block;
+        text-align: center;
+        padding:0;
+    }
+
+    input[type="text"]:disabled {
+        /* font-size: 10vw; */
+        text-shadow: -0.03ch 0 red, 0 0.03ch red, 0.03ch 0 red, 0 -0.03ch red;
+        width: 1.3ch;
+        border: none;
+        background: transparent;
+        display: inline-block;
+    }
+    .qtext {
+        width: 2.1ch;
+        border: none;
+        background: transparent;
+    }
+
+    .qtext2 {
+        border: 2px solid red;
+        border-radius: 10%;
+        outline: none;
+        width: 2.5ch;
+        height: 11vw;
+        margin-bottom: -2vw;
+        
+    }
+
+    button{
+        font-size: 7vw;
+        color: #FFA600;
+        text-shadow: -0.03ch 0 red, 0 0.03ch red, 0.03ch 0 red, 0 -0.03ch red;
+        width: 40vw;
+        height: 15vw;
+        background-color: #FFBE32;
+        border: 0.5vw solid #FF0000;
+        border-radius: 20%;
+    }
+
+    button:active{
+        background-color: #B4A800;
+    }
+    .buttontext{
+        font-size: 7vw;
+        color: #FFA600;
+        text-shadow: -0.03ch 0 red, 0 0.03ch red, 0.03ch 0 red, 0 -0.03ch red;
+        position: absolute;
+        text-align: center;
+        /* top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 70%;
+        left: 50%;
+        top: 70%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) */
+    }
+</style>

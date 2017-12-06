@@ -1,0 +1,122 @@
+body {
+    background-image: url('img/bg005.jpg');
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    /* max-width: 1200px; */
+}
+
+.colorstrip{
+    /* width: 100%; */
+    height: 2%;
+    border-style: solid;
+    background-color: #FFBE32;
+    border: 2px dashed #FF0000;
+}
+
+.margintop1{
+    margin-top: 5%;
+}
+.margintop2{
+    margin-top: 10%;
+}
+.width90p{
+    width: 90%;
+}
+
+/* 
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+input[type="number"].question {
+    padding: 5px 0;
+    background-color: transparent;
+    text-align: center;
+    width:4ch;
+
+    border: 1px solid #BABABA;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+input[type="number"]:disabled.question{
+    border: none;
+    padding: 5px 0;
+    background-color: transparent;
+    text-align: center;
+    width:3ch;
+    box-shadow: none;
+}
+input[type="text"]:disabled.question{
+    border: none;
+    padding: 5px 0;
+    background-color: transparent;
+    text-align: center;
+    width:1ch;
+    box-shadow: none
+}
+.bigblue{
+    font-size:60px;
+    color:darkblue;
+}
+form.area{
+    border:none;
+    padding: 10px 0;
+    background-color: lightcyan;
+    border-radius: 30px;
+}
+.header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 3px solid #D69110;
+}
+.btnbig{
+    padding: 30px 20px;
+    border-radius: 30px;
+}
+.rsquare{
+    text-align: center;
+    font-size: 40px;
+    color: darkred;
+    width:100px;
+    height:100px;
+    background-color: #FFA600;
+    border:3px solid red;
+    border-radius: 20px;
+    padding: 10px;
+}
+.showtext{
+    text-align: center;
+    font-size: 30px;
+    color: darkslateblue;
+}
+.rsquare:link,
+.rsquare:hover{
+    border-color: darkblue;
+    cursor:pointer;
+}
+.smallfont{
+    font-size: 20px;
+    color: darkolivegreen;
+}
+.center{
+    align-content: center;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+.list-right{
+    font-size: 40px;
+    color: darkgreen;
+}
+.list-wrong{
+    font-size: 40px;
+    color: red;
+} */

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+<link rel="stylesheet" href="main.css">
+
+<body>
+    <div align="center" >
+        <img class="margintop1 width90p" src="img/title.png" alt="Let us do math">
+    </div>
+    <div align="center">
+        <div class="colorstrip margintop1"></div>
+    </div> 
+    <table align="center" class="margintop1 width90p">
+        <tr>
+            <td align=center><a href="question.html?lv=1"><div class="roundsquare"><line1>Lv1</line1><line2>10+</line2></div></a></td>
+            <td align=center><a href="question.html?lv=2"><div class="roundsquare"><line1>Lv2</line1><line2>20+</line2></div></a></td>
+            <td align=center><a href="question.html?lv=3"><div class="roundsquare"><line1>Lv3</line1><line2>10-</line2></div></a></td>
+            <td align=center><a href="question.html?lv=4"><div class="roundsquare"><line1>Lv4</line1><line2>20-</line2></div></a></td>
+        </tr>
+    </table>
+    <table align="center" class="width90p">
+        <tr>
+            <td align=center><a href="question.html?lv=5"><div class="roundsquare"><line1>Lv5</line1><line2>R10+-</line2></div></a></td>
+            <td align=center><a href="question.html?lv=6"><div class="roundsquare"><line1>Lv6</line1><line2>R20+-</line2></div></a></td>
+            <td align=center><a href="question.html?lv=7"><div class="roundsquare"><line1>Lv7</line1><line2>50+-</line2></div></a></td>
+            <td align=center><a href="question.html?lv=8"><div class="roundsquare"><line1>Lv8</line1><line2>R50+-</line2></div></a></td>
+        </tr>
+    </table>
+    <table align="center" class="width90p">
+        <tr>
+            <td align=center><a href="question.html?lv=9"><div class="roundsquare"><line1>Lv9</line1><line2>R100+-</line2></div></a></td>
+            <td align=center><a href="question.html?lv=10"><div class="roundsquare"><line1>Lv10</line1><line2>9×</line2></div></a></td>
+            <td align=center><a href="question.html?lv=11"><div class="roundsquare"><line1>Lv11</line1><line2>9÷</line2></div></a></td>
+            <td align=center><a href="question.html?lv=12"><div class="roundsquare"><line1>Lv12</line1><line2>R9×÷</line2></div></a></td>
+        </tr>
+    </table>
+</body>
+
+
+<style>
+    td {
+        width: 25%;
+        padding: 5%;
+    }
+    .roundsquare {
+        position: relative;
+        width: 100%;
+        padding-top: 100%;
+        /* 1:1 Aspect Ratio */
+        background-color: #FFBE32;
+        border: 3px dashed #FF0000;
+        border-radius: 20%;
+    }
+    .roundsquare:hover,
+    .roundsquare:active {
+        background-color: #B4A800;
+    }
+    line1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        text-align: center;
+        font-size: 5vw;
+        text-shadow: -2px 0 red, 0 2px red, 2px 0 red, 0 -2px red;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: lightcyan;
+        top: 42%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+    line2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        text-align: center;
+        font-size: 4vw;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: red;
+        top: 70%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+    /* @media screen and (min-width: 1200px) {
+        line1 {
+            font-size: 60px;
+        }
+    } */
+</style>
